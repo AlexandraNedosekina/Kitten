@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Бабуленькины котятки</title>
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <h1>Бабуленькины котятки</h1>
+        </header>
+            <input type="radio" id="breed1" name="selectByBreed">
+            <input type="radio" id="breed2" name="selectByBreed">
+            <input type="radio" id="breed3" name="selectByBreed">
+            <input type="radio" id="breed4" name="selectByBreed">
+            <aside class="breedMenu">
+                <ul>
+                    <li><label for="breed1">Абисиннская</label></li>
+                    <li><label for="breed2">Британская</label></li>
+                    <li><label for="breed3">Русская голубая</label></li>
+                    <li><label for="breed4">Сиамская</label></li>
+                </ul>
+            </aside>
+            <section class="showcase">
+                <ul>
+                    <li data-breed="breed1"><div data-name="Василек, 4 года"><img src="img/cat1.jpg" alt="cat1"></div></li>
+                    <li data-breed="breed2"><div data-name="Редис, 3 года"><img src="img/cat2.jpeg" alt="cat2"></div></li>
+                    <li data-breed="breed3"><div data-name="Рыжик, 2 года"><img src="img/cat3.jpeg" alt="cat3"></div></li>
+                    <li data-breed="breed4"><div data-name="Бароша, 1 года"><img src="img/cat4.jpg" alt="cat4"></div></li>
+                    <li data-breed="breed1"><div data-name="Хвостик, 2 года"><img src="img/cat5.jpg" alt="cat5"></div></li>
+                    <li data-breed="breed2"><div data-name="Жмулька, 3 года"><img src="img/cat6.jpg" alt="cat6"></div></li>
+                    <li data-breed="breed3"><div data-name="Барсик, 4 года"><img src="img/cat7.jpg" alt="cat7"></div></li>
+                    <li data-breed="breed4"><div data-name="Веник, 2 года"><img src="img/cat8.jpg" alt="cat8"></div></li>
+                    <li data-breed="breed1"><div data-name="Василек, 4 года"><img src="img/cat1.jpg" alt="cat1"></div></li>
+                    <li data-breed="breed2"><div data-name="Редис, 3 года"><img src="img/cat2.jpeg" alt="cat2"></div></li>
+                    <li data-breed="breed3"><div data-name="Рыжик, 2 года"><img src="img/cat3.jpeg" alt="cat3"></div></li>
+                    <li data-breed="breed4"><div data-name="Бароша, 1 года"><img src="img/cat4.jpg" alt="cat4"></div></li>
+                    <li data-breed="breed1"><div data-name="Хвостик, 2 года"><img src="img/cat5.jpg" alt="cat5"></div></li>
+                    <li data-breed="breed2"><div data-name="Жмулька, 3 года"><img src="img/cat6.jpg" alt="cat6"></div></li>
+                    <li data-breed="breed3"><div data-name="Барсик, 4 года"><img src="img/cat7.jpg" alt="cat7"></div></li>
+                    <li data-breed="breed4"><div data-name="Веник, 2 года"><img src="img/cat8.jpg" alt="cat8"></div></li>
+                </ul>
+            </section>
+            <aside class="rating">
+                <h3>Рейтинг</h3>
+                <label for="orderByScore">по убыванию</label><input type="checkbox" id="orderByScore">
+                <ul>
+                    <li data-score="9" data-breed="Абисинсская"><span class="graph"></span></li>
+                    <li data-score="8" data-breed="Британская"><span class="graph"></span></li>
+                    <li data-score="10" data-breed="Русская голубая"><span class="graph"></span></li>
+                    <li data-score="4" data-breed="Сиамская"><span class="graph"></span></li>
+                </ul>
+            </aside>
+        <footer>
+            <p>&copy; ООО Бабуленькины котятки, 2021</p>
+            <address>Наш адрес: улица Котовая, дом 5</address>
+        </footer>
+    </div>
+</body>
+</html>
